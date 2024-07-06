@@ -14,7 +14,7 @@ fn App() -> Element {
 
     rsx! {
         div {
-            height: "100vh",
+            height: "calc(100vh - 16px)",
             display: "flex",
             flex_direction: "column",
             justify_content: "center",
